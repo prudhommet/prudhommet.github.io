@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Portfolio - TON NOM</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -11,30 +12,98 @@
   <nav>
     <ul>
       <li><a href="index.html">Présentation</a></li>
-      <li><a href="projet1.html">Projet 1</a></li>
-      <li><a href="projet2.html">Projet 2</a></li>
-      <li><a href="projet3.html">Projet 3</a></li>
+      <li><a href="projet1.html">Jeu de cartes Pokémon</a></li>
+      <li><a href="projet2.html">Site de vote</a></li>
+      <li><a href="projet3.html">Jeu du 421</a></li>
+      <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
 </header>
 
 <main>
 
-<section class="projet">
+  <section>
 
-  <h1>Projet 2 – Titre du projet</h1>
+    <h1>Site de vote</h1>
 
-  <p>
-    <!-- Même structure que pour le projet 1. Décris ici ton deuxième projet :
-         développement logiciel, réseau, web, BDD, autre SAE… -->
-  </p>
+    <h2>Description du projet</h2>
+    <p>
+      Dans le cadre d’un projet de trois mois et demi, pendant ma deuxième année de BUT Informatique, trois camarades
+      et moi avons créé un site de vote, offrant à chaque utilisateur une expérience personnalisée en fonction des
+      rôles qui lui sont attribués.
+    </p>
 
-</section>
+    <h2>Principe du site</h2>
+    <p>
+      Un utilisateur peut créer une question, pour laquelle il doit choisir certains critères comme la date de début
+      des propositions, la date de fin des propositions, la date de début des votes,
+      la date de fin des votes, le type de scrutin (jugments majoritaire ou bien vote australien). Il est alors organisateur
+      de cette question et peut inscrire des participants à cette question.
+    </p>
+    <p>
+      Le participant d'une question peut, s'il le souhaite, répondre à cette question, en créant une proposition.
+      Il devient donc l'auteur de cette proposition et peut éventuellement inscrire des co-auteurs, qui l'aideront à
+      rédiger ou modifier sa proposition.
+    </p>
+    <p>
+      Le participant peut aussi voter pour les différentes propositions répondant à la question à laquelle il
+      participe, le vote se fait différemment en fonction du type de scrutin choisi par l'organisateur.
+    </p>
+
+    <h2>Développement back-end (PHP/HTML/SQL)</h2>
+    <p>
+      Nous devions faire en sorte qu'un internaute puisse réaliser certaines actions sans se connecter. Mais nous avons
+      aussi dû faire en sorte de gérer l'authentification des utilisateurs. Nous avons donc utilisé une base de données
+      afin de stocker leurs logins et mots de passe. Nous avons également stocké les informations relatives aux
+      questions, aux propositions et aux votes dans cette même base de données.
+    </p>
+    <p>
+      Je me suis particulièrement concentré sur la gestion de l'authentification des utilisateurs, l'utilisation de la
+      base de données, la factorisation du code, la vérification du respect des principes SOLID et du modèle MVC
+      l'amélioration de l'expérience utilisateur, la rédaction des spécifications et de commentaire pour faciliter la
+      compréhension du code, mais également l'ajout de quelques fonctionnalités comme le fait de pouvoir créer, modifier
+      ou supprimer une question, une proposition ou encore un vote.
+    </p>
+    <p>
+      J’ai également dû tester les différentes fonctionnalités du site pour m'assurer qu'on ait bien prévu tous les
+      cas d'utilisation et corriger les potentielles failles dans les actions réalisables.
+    </p>
+
+    <h2>Développement front-end (CSS/JavaScript)</h2>
+    <p>
+      Pour la mise en page de notre site de vote, nous avons utilisé Bulma pour la partie CSS. Nous avons également
+      utilisé du JavaScript, mais uniquement du côté client, par exemple dans le formulaire de création d'une question
+      afin de ne pas avoir à rafraîchir la page si l'organisateur veut ajouter des sections à sa question.
+    </p>
+
+    <h2>Travail collaboratif et versioning (GitLab)</h2>
+    <p>
+      Nous avons utilisé GitLab dès le début afin de travailler en parallèle sur différentes fonctionnalités du site
+      via les branches.
+    </p>
+    <p>
+      En ce qui concerne Git, j’ai pu mettre en pratique une fois de plus la gestion des fusions de branches,
+      la résolution de conflits et l'organisation d'un dépôt.
+      Cela nous a aussi habitué à mettre en place des commits clairs et réguliers facilitant le suivi de l’évolution
+      du projet (l’ajout de fonctionnalités, la factorisation du code, les modifications…).
+    </p>
+    <p>
+      Ce projet m'a permis de m'améliorer dans la planification d'un projet et le travail en équipe avec les principes
+      SCRUM. Mais j'ai aussi pu apprendre comment fonctionne la production pour un client avec le principe de sprints,
+      de feedbacks de la part du client mais également de présentation d'un produit. Puisque ce projet était une
+      simulation de création d'un site web en fonction des demandes d'un de nos professeurs qui jouait le rôle du client.
+    </p>
+
+    <img class="pokemon" src="./Recording%202025-12-18%20at%2018.47.23.gif" alt="gif_projet_pokemon">
+    <br>
+    <img class="pokemon" src="./Recording%202025-12-18%20at%2018.51.51.gif" alt="gif_projet_pokemon">
+
+  </section>
 
 </main>
 
 <footer>
-  <p>© 2025 - Timothé Prud'homme Gateau – Portfolio BUT Informatique</p>
+  <p>2025 - Timothé Prud'homme Gateau – Portfolio</p>
 </footer>
 
 </body>

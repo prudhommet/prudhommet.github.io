@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Portfolio - TON NOM</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -11,9 +12,10 @@
     <nav>
         <ul>
             <li><a href="index.html">Présentation</a></li>
-            <li><a href="projet1.html">Projet 1</a></li>
-            <li><a href="projet2.html">Projet 2</a></li>
-            <li><a href="projet3.html">Projet 3</a></li>
+            <li><a href="projet1.html">Jeu de cartes Pokémon</a></li>
+            <li><a href="projet2.html">Site de vote</a></li>
+            <li><a href="projet3.html">Jeu du 421</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
 </header>
@@ -23,11 +25,63 @@
 
 <section class="projet">
 
-    <h1>Projet 3 – Titre du projet</h1>
+    <h1>Jeu du 421</h1>
 
+    <h2>Description du projet</h2>
     <p>
-        <!-- Même structure que pour le projet 1 et 2. Décris ici ton troisième projet :
-             projet plus personnel, projet long, projet sur plusieurs semaines, etc. -->
+        Dans le cadre de ma première année de BUT Informatique, j’ai réalisé le développement d’un jeu du 421 en Java.
+        Ce projet avait pour objectif de concevoir un jeu complet en appliquant à la fois des notions d’algorithmique,
+        de mathématiques et de programmation.
+    </p>
+
+    <h2>Règles du jeu du 421</h2>
+    <p>
+        Le jeu du 421 se joue avec trois dés. Un joueur lance les trois dés et son objectif est d’obtenir la meilleure
+        combinaison possible.
+    </p>
+    <p>
+        Si un ou plusieurs dés ne lui conviennent pas, le joueur peut choisir lesquels relancer s'il pense pouvoir avoir
+        une meilleure combinaison. Il peut relancer les dés au maximum deux fois par tour. Une fois cela fait le deuxième
+        joueur fait de même.
+    </p>
+    <p>
+        À la fin de chaque tour, les deux joueurs comparent leurs combinaisons et le joueur avec la pire combinaison
+        perd un nombre de points correspondant à la valeur de la combinaison de son adversaire.
+    </p>
+
+    <h2>Fonctionnalités du jeu</h2>
+    <p>
+        Le jeu permet de jouer à deux joueurs humains, mais également de jouer seul contre un ordinateur.
+        Le joueur peut choisir le mode de jeu ainsi que la difficulté de l’adversaire contrôlé par l’ordinateur.
+    </p>
+    <p>
+        L’ordinateur dispose d’un algorithme de décision lui permettant de calculer son prochain coup. Cet algorithme
+        varie en fonction du niveau de difficulté choisi, rendant les parties plus ou moins complexes pour le joueur humain.
+    </p>
+
+    <h2>Algorithme et modélisation mathématique</h2>
+    <p>
+        Une partie importante du projet reposait sur la conception de l’algorithme de l’intelligence artificielle.
+        J’ai utilisé les probabilités pour modéliser les chances d'obtenir une combinaison précise en fonction des dés
+        déjà lancés.
+    </p>
+    <p>
+        Cette modélisation m’a permis de déterminer les décisions optimales à prendre selon la situation,
+        en combinant des notions de probabilités et d’informatique.
+    </p>
+    <p>
+        Ce travail m’a permis de mieux comprendre comment traduire un raisonnement mathématique en algorithme concret
+        en Java.
+    </p>
+
+    <h2>Compétences développées</h2>
+    <p>
+        Ce projet m’a permis de renforcer ma maîtrise de la programmation Java, mais aussi
+        d’approfondir mes compétences en algorithmique et en modélisation.
+    </p>
+    <p>
+        Le fait de réaliser ce projet seul m’a également appris à organiser mon travail, à analyser un problème
+        complexe et à concevoir une solution complète de manière autonome.
     </p>
 
 </section>
@@ -35,7 +89,7 @@
 </main>
 
 <footer>
-    <p>© 2025 - Timothé Prud'homme Gateau – Portfolio BUT Informatique</p>
+    <p>2025 - Timothé Prud'homme Gateau – Portfolio</p>
 </footer>
 
 </body>
